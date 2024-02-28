@@ -55,7 +55,7 @@ _Replace `<list_index>` with the index of the list you want to show or hide._
 
 Clone the repository to your local machine:
 
-`git clone https://github.com/NullPulse/TuiDo/edit/main/README.md`
+`git clone https://github.com/NullPulse/TuiDo`
 
 Navigate to the TuiDo directory:
 
