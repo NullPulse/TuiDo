@@ -81,10 +81,10 @@ void Bar::runCommand(char command[], ToDoList* mainlist, ToDoList* secondlist) {
   std::string file;
   ToDoList* target = 0;
   if(s.substr(4, 1) == "0") {
-    file = "config.todo";
+    file = ".config.todo";
     target = mainlist;
   } else if(s.substr(4,1) == "1") {
-    file = "config2.todo";
+    file = ".config2.todo";
     target = secondlist;
   }
 
@@ -106,10 +106,10 @@ void Bar::runCommand(char command[], ToDoList* mainlist, ToDoList* secondlist) {
   } else if(s.substr(0,2) == "ch") {
     if(s.substr(3,1) == "0") {
       target = mainlist;
-      file = "config.todo";
+      file = ".config.todo";
     } else {
       target = secondlist;
-      file = "config2.todo";
+      file = ".config2.todo";
     }
     mainlist->CheckUncheckTask(std::stoi(s.substr(5,1)), file, *target);
   } else if(s.substr(0,2) == "sh") {

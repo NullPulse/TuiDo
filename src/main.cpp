@@ -24,11 +24,11 @@ int main() {
     clear();
 
     maintask.itsTaskList.clear();
-    maintask.InitializeList(&maintask.itsTaskList, "config.todo");
+    maintask.InitializeList(&maintask.itsTaskList, ".config.todo");
     
 
     secondarytask.itsTaskList.clear();
-    secondarytask.InitializeList(&secondarytask.itsTaskList, "config2.todo");
+    secondarytask.InitializeList(&secondarytask.itsTaskList, ".config2.todo");
 
     std::vector<ToDoList> AllToDoList {maintask, secondarytask};
 
