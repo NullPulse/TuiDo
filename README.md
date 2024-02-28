@@ -69,6 +69,14 @@ Run TuiDo:
 
 `./TuiDo`
 
+#### To Do:
+
+- [ ] Add child task
+- [ ] Add moving task from one list to another
+- [ ] Add highlighted task
+- [ ] Add moving task list on the screen
+- [ ] Add remember when hidden
+
 #### Feedback
 
 If you encounter any issues or have suggestions for improvements, please don't hesitate to open an [issue](https://github.com/NullPulse/TuiDo/issues).
