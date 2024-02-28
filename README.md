@@ -1,2 +1,2 @@
-# TuiDo
-A vim-like todo manager built with Ncurses.
+# TuiDo 📝
+TuiDo is a terminal-based todo manager inspired by Vim's interface. 
