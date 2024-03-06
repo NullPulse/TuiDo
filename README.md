@@ -76,7 +76,7 @@ Run TuiDo:
 - [ ] Add highlighted task
 - [ ] Add moving task list on the screen
 - [ ] Add remember when hidden
-- [ ] Add cursor on bar
+- [X] Add cursor on bar
 - [ ] Add everyday task
 
 #### Feedback
