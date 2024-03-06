@@ -4,6 +4,7 @@
 
 
 void Bar::PrintBar(ToDoList* mainlist, ToDoList* secondlist, int max_x, int max_y, int *curr_x, int *curr_y, bool editX) {
+  curs_set(1);
   char command[64];
   for(int x = 0; x < 64; x++) {command[x] = '|';}
   isOpen = true;
@@ -34,6 +35,7 @@ void Bar::PrintBar(ToDoList* mainlist, ToDoList* secondlist, int max_x, int max_
         current_position++;
         attroff(COLOR_PAIR(1));
         RemoveBar(max_x, max_y, curr_x, curr_y);
+        curs_set(0);
         runCommand(command, mainlist, secondlist);
         break;
       case 27: // change
